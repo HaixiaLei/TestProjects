@@ -1,0 +1,112 @@
+10
+
+dir
+0
+https://github.com/HaixiaLei/Samples.git/TestMotionEffict/TestMotionEffict
+https://github.com/HaixiaLei/Samples.git
+add
+
+
+2015-08-23T03:04:25.188240Z
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ba4bc6dc-38e2-5bea-c56a-ce57b7db7bff
+
+axx.jpg
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Base.lproj
+dir
+
+
+
+add
+
+main.m
+file
+
+
+
+add
+
+bxx.jpg
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+AppDelegate.h
+file
+
+
+
+add
+
+Images.xcassets
+dir
+
+
+
+add
+
+ViewController.h
+file
+
+
+
+add
+
+Info.plist
+file
+
+
+
+add
+
+AppDelegate.m
+file
+
+
+
+add
+
+ViewController.m
+file
+
+
+
+add
+

@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95635A231B78A42C000D3101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95635A221B78A42C000D3101 /* main.m */; };
+		95635A261B78A42C000D3101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95635A251B78A42C000D3101 /* AppDelegate.m */; };
+		95635A291B78A42C000D3101 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95635A281B78A42C000D3101 /* ViewController.m */; };
+		95635A2C1B78A42C000D3101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95635A2A1B78A42C000D3101 /* Main.storyboard */; };
+		95635A2E1B78A42C000D3101 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95635A2D1B78A42C000D3101 /* Images.xcassets */; };
+		95635A311B78A42C000D3101 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95635A2F1B78A42C000D3101 /* LaunchScreen.xib */; };
+		95635A3D1B78A42C000D3101 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95635A3C1B78A42C000D3101 /* _________Tests.m */; };
+		95635A4B1B78B37A000D3101 /* Cell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 95635A4A1B78B37A000D3101 /* Cell1.m */; };
+		95635A4D1B78B38A000D3101 /* Cell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95635A4C1B78B38A000D3101 /* Cell1.xib */; };
+		95635A521B799692000D3101 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95635A511B799692000D3101 /* CoreMotion.framework */; };
+		95635A551B79A019000D3101 /* Cell1Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 95635A541B79A019000D3101 /* Cell1Label.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95635A371B78A42C000D3101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95635A151B78A42C000D3101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95635A1C1B78A42C000D3101;
+			remoteInfo = "测试加速计与陀螺仪";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95635A1D1B78A42C000D3101 /* 测试加速计与陀螺仪.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试加速计与陀螺仪.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95635A211B78A42C000D3101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95635A221B78A42C000D3101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95635A241B78A42C000D3101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95635A251B78A42C000D3101 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95635A271B78A42C000D3101 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95635A281B78A42C000D3101 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95635A2B1B78A42C000D3101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95635A2D1B78A42C000D3101 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95635A301B78A42C000D3101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		95635A361B78A42C000D3101 /* 测试加速计与陀螺仪Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试加速计与陀螺仪Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95635A3B1B78A42C000D3101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95635A3C1B78A42C000D3101 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		95635A491B78B37A000D3101 /* Cell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell1.h; sourceTree = "<group>"; };
+		95635A4A1B78B37A000D3101 /* Cell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell1.m; sourceTree = "<group>"; };
+		95635A4C1B78B38A000D3101 /* Cell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell1.xib; sourceTree = "<group>"; };
+		95635A511B799692000D3101 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		95635A531B79A019000D3101 /* Cell1Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell1Label.h; sourceTree = "<group>"; };
+		95635A541B79A019000D3101 /* Cell1Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell1Label.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95635A1A1B78A42C000D3101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95635A521B799692000D3101 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95635A331B78A42C000D3101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95635A141B78A42C000D3101 = {
+			isa = PBXGroup;
+			children = (
+				95635A1F1B78A42C000D3101 /* 测试加速计与陀螺仪 */,
+				95635A391B78A42C000D3101 /* 测试加速计与陀螺仪Tests */,
+				95635A1E1B78A42C000D3101 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95635A1E1B78A42C000D3101 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95635A1D1B78A42C000D3101 /* 测试加速计与陀螺仪.app */,
+				95635A361B78A42C000D3101 /* 测试加速计与陀螺仪Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95635A1F1B78A42C000D3101 /* 测试加速计与陀螺仪 */ = {
+			isa = PBXGroup;
+			children = (
+				95635A241B78A42C000D3101 /* AppDelegate.h */,
+				95635A251B78A42C000D3101 /* AppDelegate.m */,
+				95635A271B78A42C000D3101 /* ViewController.h */,
+				95635A281B78A42C000D3101 /* ViewController.m */,
+				95635A491B78B37A000D3101 /* Cell1.h */,
+				95635A4A1B78B37A000D3101 /* Cell1.m */,
+				95635A4C1B78B38A000D3101 /* Cell1.xib */,
+				95635A531B79A019000D3101 /* Cell1Label.h */,
+				95635A541B79A019000D3101 /* Cell1Label.m */,
+				95635A2A1B78A42C000D3101 /* Main.storyboard */,
+				95635A2D1B78A42C000D3101 /* Images.xcassets */,
+				95635A2F1B78A42C000D3101 /* LaunchScreen.xib */,
+				95635A201B78A42C000D3101 /* Supporting Files */,
+			);
+			path = "测试加速计与陀螺仪";
+			sourceTree = "<group>";
+		};
+		95635A201B78A42C000D3101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95635A511B799692000D3101 /* CoreMotion.framework */,
+				95635A211B78A42C000D3101 /* Info.plist */,
+				95635A221B78A42C000D3101 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95635A391B78A42C000D3101 /* 测试加速计与陀螺仪Tests */ = {
+			isa = PBXGroup;
+			children = (
+				95635A3C1B78A42C000D3101 /* _________Tests.m */,
+				95635A3A1B78A42C000D3101 /* Supporting Files */,
+			);
+			path = "测试加速计与陀螺仪Tests";
+			sourceTree = "<group>";
+		};
+		95635A3A1B78A42C000D3101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95635A3B1B78A42C000D3101 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95635A1C1B78A42C000D3101 /* 测试加速计与陀螺仪 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95635A401B78A42C000D3101 /* Build configuration list for PBXNativeTarget "测试加速计与陀螺仪" */;
+			buildPhases = (
+				95635A191B78A42C000D3101 /* Sources */,
+				95635A1A1B78A42C000D3101 /* Frameworks */,
+				95635A1B1B78A42C000D3101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "测试加速计与陀螺仪";
+			productName = "测试加速计与陀螺仪";
+			productReference = 95635A1D1B78A42C000D3101 /* 测试加速计与陀螺仪.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95635A351B78A42C000D3101 /* 测试加速计与陀螺仪Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95635A431B78A42C000D3101 /* Build configuration list for PBXNativeTarget "测试加速计与陀螺仪Tests" */;
+			buildPhases = (
+				95635A321B78A42C000D3101 /* Sources */,
+				95635A331B78A42C000D3101 /* Frameworks */,
+				95635A341B78A42C000D3101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95635A381B78A42C000D3101 /* PBXTargetDependency */,
+			);
+			name = "测试加速计与陀螺仪Tests";
+			productName = "测试加速计与陀螺仪Tests";
+			productReference = 95635A361B78A42C000D3101 /* 测试加速计与陀螺仪Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95635A151B78A42C000D3101 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Sywine;
+				TargetAttributes = {
+					95635A1C1B78A42C000D3101 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 5Z69PP3S8H;
+					};
+					95635A351B78A42C000D3101 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 95635A1C1B78A42C000D3101;
+					};
+				};
+			};
+			buildConfigurationList = 95635A181B78A42C000D3101 /* Build configuration list for PBXProject "测试加速计与陀螺仪" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95635A141B78A42C000D3101;
+			productRefGroup = 95635A1E1B78A42C000D3101 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95635A1C1B78A42C000D3101 /* 测试加速计与陀螺仪 */,
+				95635A351B78A42C000D3101 /* 测试加速计与陀螺仪Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95635A1B1B78A42C000D3101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95635A2C1B78A42C000D3101 /* Main.storyboard in Resources */,
+				95635A311B78A42C000D3101 /* LaunchScreen.xib in Resources */,
+				95635A2E1B78A42C000D3101 /* Images.xcassets in Resources */,
+				95635A4D1B78B38A000D3101 /* Cell1.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95635A341B78A42C000D3101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95635A191B78A42C000D3101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95635A291B78A42C000D3101 /* ViewController.m in Sources */,
+				95635A4B1B78B37A000D3101 /* Cell1.m in Sources */,
+				95635A261B78A42C000D3101 /* AppDelegate.m in Sources */,
+				95635A231B78A42C000D3101 /* main.m in Sources */,
+				95635A551B79A019000D3101 /* Cell1Label.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95635A321B78A42C000D3101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95635A3D1B78A42C000D3101 /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95635A381B78A42C000D3101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95635A1C1B78A42C000D3101 /* 测试加速计与陀螺仪 */;
+			targetProxy = 95635A371B78A42C000D3101 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95635A2A1B78A42C000D3101 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95635A2B1B78A42C000D3101 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95635A2F1B78A42C000D3101 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95635A301B78A42C000D3101 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95635A3E1B78A42C000D3101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95635A3F1B78A42C000D3101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95635A411B78A42C000D3101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sywine Ho (EE74MNKJTM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sywine Ho (EE74MNKJTM)";
+				INFOPLIST_FILE = "测试加速计与陀螺仪/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		95635A421B78A42C000D3101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sywine Ho (EE74MNKJTM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sywine Ho (EE74MNKJTM)";
+				INFOPLIST_FILE = "测试加速计与陀螺仪/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		95635A441B78A42C000D3101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "测试加速计与陀螺仪Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/测试加速计与陀螺仪.app/测试加速计与陀螺仪";
+			};
+			name = Debug;
+		};
+		95635A451B78A42C000D3101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "测试加速计与陀螺仪Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/测试加速计与陀螺仪.app/测试加速计与陀螺仪";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95635A181B78A42C000D3101 /* Build configuration list for PBXProject "测试加速计与陀螺仪" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95635A3E1B78A42C000D3101 /* Debug */,
+				95635A3F1B78A42C000D3101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95635A401B78A42C000D3101 /* Build configuration list for PBXNativeTarget "测试加速计与陀螺仪" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95635A411B78A42C000D3101 /* Debug */,
+				95635A421B78A42C000D3101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95635A431B78A42C000D3101 /* Build configuration list for PBXNativeTarget "测试加速计与陀螺仪Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95635A441B78A42C000D3101 /* Debug */,
+				95635A451B78A42C000D3101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95635A151B78A42C000D3101 /* Project object */;
+}

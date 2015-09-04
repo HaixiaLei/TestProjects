@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TestView">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEc-1C-qVx">
+                    <rect key="frame" x="26" y="34" width="64" height="53"/>
+                    <color key="backgroundColor" red="0.75751235702998798" green="0.39544485059643975" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="64" id="76z-kd-rLn"/>
+                        <constraint firstAttribute="height" constant="53" id="Z74-pR-5Y1"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7W0-Jx-Wqf">
+                    <rect key="frame" x="110" y="40" width="47" height="40"/>
+                    <color key="backgroundColor" red="1" green="0.71700397521727099" blue="0.39777194930102033" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="47" id="FTI-yc-1N6"/>
+                        <constraint firstAttribute="height" constant="40" id="Rhz-hf-aOr"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hC-68-GFG">
+                    <rect key="frame" x="192" y="49" width="59" height="22"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="59" id="6Pa-GJ-ZTu"/>
+                        <constraint firstAttribute="height" constant="22" id="A6E-pV-3B6"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="eEc-1C-qVx" secondAttribute="centerY" id="0w8-4o-smZ"/>
+                <constraint firstItem="eEc-1C-qVx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="26" id="BI0-qz-T9B"/>
+                <constraint firstAttribute="centerY" secondItem="7hC-68-GFG" secondAttribute="centerY" id="RRz-s2-bYg"/>
+                <constraint firstItem="7hC-68-GFG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="192" id="S9s-Y6-snR"/>
+                <constraint firstItem="7W0-Jx-Wqf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="110" id="UKb-M6-tqH"/>
+                <constraint firstAttribute="centerY" secondItem="7W0-Jx-Wqf" secondAttribute="centerY" id="bhn-ep-Twl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="b0L" destination="BI0-qz-T9B" id="UVX-Vc-ukX"/>
+                <outlet property="b0w" destination="76z-kd-rLn" id="dAO-dO-GIJ"/>
+                <outlet property="b1L" destination="UKb-M6-tqH" id="w0L-Hz-Ddn"/>
+                <outlet property="b1w" destination="FTI-yc-1N6" id="uju-cB-aoH"/>
+                <outlet property="b2L" destination="S9s-Y6-snR" id="zcm-E2-feP"/>
+                <outlet property="b2w" destination="6Pa-GJ-ZTu" id="g3m-pV-2pa"/>
+            </connections>
+            <point key="canvasLocation" x="165" y="85"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

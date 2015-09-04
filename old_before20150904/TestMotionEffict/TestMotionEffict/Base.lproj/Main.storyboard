@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="yX9-Kt-zf9">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="axx.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Qyq-tD-8dE">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Nlw-Zu-dfL" appends="YES" id="poJ-R2-3Qf"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Qyq-tD-8dE" secondAttribute="bottom" id="3B0-c0-PrH"/>
+                            <constraint firstAttribute="trailing" secondItem="Qyq-tD-8dE" secondAttribute="trailing" id="KHx-yG-MaX"/>
+                            <constraint firstItem="Qyq-tD-8dE" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="64" id="PQ6-XW-qBP"/>
+                            <constraint firstItem="Qyq-tD-8dE" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="jOm-NN-N3p"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XvX-Du-Vw6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Nlw-Zu-dfL">
+                    <connections>
+                        <segue destination="jXy-zb-ULA" kind="push" id="uzj-IC-0d5"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-261" y="370"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VJj-op-CWs">
+            <objects>
+                <viewController id="jXy-zb-ULA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cwY-Wl-iU1"/>
+                        <viewControllerLayoutGuide type="bottom" id="UWf-tI-4pm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R3h-Aj-Dsz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bxx.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="G0r-gb-vI5">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UWf-tI-4pm" firstAttribute="top" secondItem="G0r-gb-vI5" secondAttribute="bottom" id="BEO-5X-7q7"/>
+                            <constraint firstItem="G0r-gb-vI5" firstAttribute="leading" secondItem="R3h-Aj-Dsz" secondAttribute="leading" id="F6Y-NF-8mN"/>
+                            <constraint firstItem="G0r-gb-vI5" firstAttribute="top" secondItem="cwY-Wl-iU1" secondAttribute="bottom" id="WeA-K9-NJD"/>
+                            <constraint firstAttribute="trailing" secondItem="G0r-gb-vI5" secondAttribute="trailing" id="wQB-vo-K3T"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5my-7b-NWJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mlp-md-Mgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="376"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yGQ-rp-LDy">
+            <objects>
+                <navigationController id="yX9-Kt-zf9" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vS3-ha-ub6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="7T2-8u-YXu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GmV-w1-Dat" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-461" y="469"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="axx.jpg" width="681" height="1024"/>
+        <image name="bxx.jpg" width="650" height="650"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

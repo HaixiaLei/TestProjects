@@ -1,0 +1,273 @@
+10
+
+dir
+0
+https://github.com/HaixiaLei/Samples.git/AutoLayoutDemo21/AutoLayoutDemo21
+https://github.com/HaixiaLei/Samples.git
+add
+
+
+2015-08-23T03:04:25.188240Z
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ba4bc6dc-38e2-5bea-c56a-ce57b7db7bff
+
+VC1.h
+file
+
+
+
+add
+
+main.m
+file
+
+
+
+add
+
+VC2.h
+file
+
+
+
+add
+
+VC3.h
+file
+
+
+
+add
+
+VC4.h
+file
+
+
+
+add
+
+VC1.m
+file
+
+
+
+add
+
+VerticalView.xib
+file
+
+
+
+add
+
+VC2.m
+file
+
+
+
+add
+
+Info.plist
+file
+
+
+
+add
+
+VC3.m
+file
+
+
+
+add
+
+VC4.m
+file
+
+
+
+add
+
+VerticalView.h
+file
+
+
+
+add
+
+TestView.xib
+file
+
+
+
+add
+
+VerticalView.m
+file
+
+
+
+add
+
+Base.lproj
+dir
+
+
+
+add
+
+TestView.h
+file
+
+
+
+add
+
+Images.xcassets
+dir
+
+
+
+add
+
+AppDelegate.h
+file
+
+
+
+add
+
+00.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+11.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ViewController.h
+file
+
+
+
+add
+
+TestView.m
+file
+
+
+
+add
+
+SuggestedColors.plist
+file
+
+
+
+add
+
+AppDelegate.m
+file
+
+
+
+add
+
+22.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+bg.jpg
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+33.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ViewController.m
+file
+
+
+
+add
+
+44.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
